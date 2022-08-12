@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background:white;
+    background-position: center;
+    background-size: cover;
+    
+}
+.text-box{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 150x;
+    display: flex;
+    justify-content: space-between;
+}
+.text-box1 h1{
+    font-size: 65px;
+    margin-left: 180px;
+    margin-top: 200px;
+    color: rgb(35, 125, 228);
+    font-family: "Tw Cen MT"; 
+    font-weight: 900; 
+}
+.text-box1 p{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    width: 390px;
+    height: 300px;
+    margin-top: 150px;
+    margin-right: 40px;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(211, 210, 210);
+    
+}
+.login input{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background:transparent;
+    padding: 12px;
+    font-size: medium;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: rgb(228, 224, 224);
+}
+.login input:focus{
+    outline: none;
+    border: 1px solid rgb(103, 103, 231); 
+}
+.btn2{
+    width: 330px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(35, 125, 228);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    color:#fff;
+    transition: 0.5s;
+    font-size: larger;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 15px;
+    
+
+}
+/* .login input:hover{
+    border: rgb(0, 0, 255);
+} */
+.hr{
+    text-align: center;
+    margin-left: 143px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(35, 125, 228);
+}
+.btn3{
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    margin-left: 110px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(28, 226, 54);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color:#fff;
+}
+.p{
+    justify-content: center;
+    margin-left:850px;
+    margin-top: 30px;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
